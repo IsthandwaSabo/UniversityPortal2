@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+<body>
+    <header class="site-header">
+        <div class="hero">
+            <h1>🎓 University Portal</h1>
+            <p>Your gateway to courses, students, and campus life</p>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="courses">📚 View Courses</a></li>
+                <li><a href="students">👩‍🎓 View Students</a></li>
+                <li><a href="addCourse.html">➕ Add Course</a></li>
+                <li><a href="addStudent.html">➕ Add Student</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>🔍 Search Courses</h2>
+            <form action="courses" method="get" class="search-form">
+                <label for="code">Course Code:</label>
+                <input type="text" id="code" name="courseCode" placeholder="e.g. CS101">
+                <button type="submit">Find Course</button>
+            </form>
+        </section>
+
+        <section class="search-section">
+            <h2>🔎 Search Students</h2>
+            <form action="students" method="get" class="search-form">
+                <label for="studentNumber">Student Number:</label>
+                <input type="text" id="studentNumber" name="studentNumber" placeholder="e.g. 2025001">
+                <button type="submit">Find Student</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 University Portal | Built with ❤️ for students and staff</p>
+    </footer>
+</body>
+</html>
+

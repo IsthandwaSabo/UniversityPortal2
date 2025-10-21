@@ -1,0 +1,4 @@
+za\ac\universityportal2\servlets\CourseServlet.class
+za\ac\universityportal2\util\DBUtil.class
+za\ac\universityportal2\dao\CourseDAO.class
+za\ac\universityportal2\model\Course.class
